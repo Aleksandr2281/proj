@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Hobiji - Zīmēšana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Mani Hobiji - Zīmēšana</h1>
+        <p>Es mīlu zīmēt! Man patīk izmantot dažādus zīmēšanas stilus, piemēram, akvareļus.</p>
+        <button id="changeColorBtn">Mainīt fona krāsu</button>
+    </div>
+
+    <script>
+        // JavaScript, lai mainītu fona krāsu
+        document.getElementById("changeColorBtn").addEventListener("click", function() {
+            document.body.style.backgroundColor = "lightblue";
+        });
+    </script>
+</body>
+</html>
